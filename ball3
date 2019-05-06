@@ -1,7 +1,7 @@
-int xPos = width / 2; //공의 중심에 대한 x좌표를 width(size함수로 그려준 창의 가로 길이)/2 즉, 가로의 중앙으로 하겠다
-int yPos = height / 2; //공의 중심에 대한 y좌표를 height(size함수로 그려준 창의 세로 길이)/2 즉, 세로의 중앙으로 하겠다
+int xPos = width / 2;
+int yPos = height / 2;
 
-int radius = 10; //공의 반지름을 10으로 하겠다
+int radius = 10;
 
 
 
