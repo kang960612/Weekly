@@ -8,7 +8,7 @@ int radius = 10;
 //공이 이동하는데 필요한 변수 선언
 int xDir = -1; //공이 x축으로 움직이는데 음수방향으로 움직이겠다. 1이면 양수방향으로 움직이겠다.
 int yDir = -1; //공이 y축으로 움직이는데 음수방향으로 움직이겠다. 1이면 양수방향으로 움직이겠다.
-int ball_speed = 3; 공의 속도를 3으로 하겠다.
+int ball_speed = 3; //공의 속도를 3으로 하겠다.
 
 
 
@@ -22,7 +22,7 @@ void draw(){
 
   background(0);
   fill(255, 255, 0);
-  ellipse(xPos, yPos, radius*2, radius*2)  
+  ellipse(xPos, yPos, radius*2, radius*2);
   
   
   xPos += (xDir * ball_speed); // xPos = xPos + (xDir * ball_speed), x좌표의 위치를 위에서 선언해준 방향과 속도로 움직이겠다.
